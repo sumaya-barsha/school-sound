@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*---Navbar Start--*/
+nav{
+    background-color:#FFC8AC ;
+    padding: 20px  0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+    align-items: center;
+}
+.nav-link ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.nav-link ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #737373;
+    font-family: "Montserrat", serif;
+}
+.buttons button{
+    padding: 15px 25px;
+    background-color: transparent;
+    border: none;
+    color: #96BB7C;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 10pxpx;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.buttons button:hover{
+    background-color: #96BB7C;
+    color: #ffff;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+/*---Navbar End--*/
+
+/*---Banner Start--*/
+#banner{
+    background-color: #FFC8AC;
+}
+.banner-main{
+    display: flex;
+    align-items: center;
+}
+.banner-left{
+    width: 50%;
+}
+.banner-left h3{
+color: #96BB7C;
+font-family: "Montserrat", serif;
+margin-bottom: 30px;
+
+}
+.banner-left h1{
+    color: #252B42;
+    font-size: 45px;
+    font-family: "Montserrat", serif;
+    line-height: 70px;
+    padding-bottom: 30px;
+
+}
+.banner-left p{
+    color: #737373;
+    font-size: 18px;
+    font-family: "Montserrat", serif;
+    padding-right: 235px;
+    padding-bottom: 30px;
+    line-height: 30px;
+    
+}
+.banner-left .banner-buttons button{
+    padding: 15px 25px;
+    background-color: transparent;
+    border: 1px solid #96BB7C;
+    color: #96BB7C;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius:5px;
+    margin-right: 30px;
+    padding: 15px 40px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.banner-left .banner-buttons button:hover{
+    background-color: #96BB7C;
+    color: #fff;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.banner-right{
+    width: 50%;
+}
+.banner-right img{
+    width: 100%;
+}
+
+/*---Banner End--*/
